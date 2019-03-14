@@ -1,0 +1,9 @@
+ 
+       Quiz Application
+	   
+    1. Install NodeJS.
+	2. Initiate the live server.
+		 => Change the path to the repective folder.
+		 => Command : npm install -g live-server
+		 => Command : live-server
+	3. Open the login.html file.

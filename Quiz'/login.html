@@ -1,0 +1,38 @@
+<html>
+  <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="sheet.css">
+        <script src="js/cookie.js"></script>
+        <script src="js/respond.js"></script>
+      </head>
+      <body>
+        <header> 
+          <div class="contain">
+          <div><h1>Quiz</h1></div>
+          <div><button id="b" onclick="openForm()">Login</button></div>
+        </div>
+        </header>
+        <section>
+            <div class="box">
+                  <div class="form-popup" id="myForm">
+                        <form name="myform" action="home.html" onsubmit="return validateform()" class="form-container" >  
+                                <span class="close" onclick="closeForm()">×</span>
+                                <h1 style="text-align: center;">Login</h1>
+
+                                <label for="email"><b> Name</b></label>
+                                <input type="text" name="name"><br/>  
+
+                                <label for="psw"><b>Password</b></label>
+                                <input type="password" name="password"><br/>  
+
+                                <input type="submit" class="btn" value="register">  
+                        </form>  
+                        </div>
+              <div>
+                      <p>Test your skills</p>
+                      <button onclick="msg()">Quiz</button></div>
+              </div>
+             
+        </section>
+    </body></html>

@@ -1,0 +1,52 @@
+ {
+     "quiz":[{
+    "question":"Which of these is a wrapper around everything associated with a reply from an http server?",
+    "options": ["HTTP","HttpResponse","HttpRequest","httpserver"],
+    "answer": "HttpResponse"
+    },
+    {
+    "question":" Which of these methods is used to know the full URL of an URL object?",
+    "options": ["fullHost()","getHost()","ExternalForm()","toExternalForm()"],
+    "answer": "toExternalForm()"
+    },
+    {
+    "question":"Which of these class is used to access actual bits or content information of a URL?",
+    "options": ["URL","URLDecoder","URLConnection","All of the mentioned"],
+    "answer": "All of the mentioned"
+    },
+    {
+    "question":"Which of these methods are used to find a URL from the cache of httpd?",
+    "options": [" findfromCache()","findFromCache()","serveFromCache()","getFromCache()"],
+    "answer": "serveFromCache()"
+    },
+    {
+    "question":" Which of these transfer protocol must be used so that URL can be accessed by URLConnection class object?",
+    "options": ["http","https","Any Protocol can be used","None of the mentioned"],
+    "answer": "http"
+    },
+    {
+    "question":"Which of these methods is used to know when was the URL last modified?",
+    "options": ["LastModified()","getLastModified()","GetLastModified()","getlastModified()"],
+    "answer": " getLastModified()"
+    },
+    {
+    "question":"Which of these methods is used to know the type of content used in the URL?",
+    "options": ["ContentType()","contentType()","getContentType()","GetContentType()"],
+    "answer": "getContentType()"
+    },
+    {
+    "question":"Which of these data member of HttpResponse class is used to store the response from an http server?",
+    "options": ["status","address","statusResponse","statusCode"],
+    "answer": "statusCode"
+    },
+    {
+    "question":"Which of these exceptions is thrown by URL class’s constructors?",
+    "options": ["URLNotFound","URLSourceNotFound","MalformedURLException","URLNotFoundException"],
+    "answer": "MalformedURLException"
+    },
+    {
+    "question":" Which of these methods is used to know host of an URL?",
+    "options": ["host()","getHost()","GetHost()","gethost()"],
+    "answer": "getHost()"
+    }]
+ }
